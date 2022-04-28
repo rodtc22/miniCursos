@@ -37,8 +37,13 @@ Este es otro parrafo, las buenas practicas de programacion, me dicen que no teng
 
 ### Citas multiples parrafos
 
-> esto seria el contenido del parrafo1...
-> esto seria el contenido del parrafo2...
+> esto seria el contenido del parrafo1.
+y aunque hayamos puesto esto en salto de linea, recordemo que no estamos saliento del parrafo, por que solo hace un `<br>`, por tanto sigue dentro de la cita
+y podemos seguir
+haciendo
+esos *saltos* de **linea**
+
+> esto seria el contenido de otro parrafo parrafo2...
 
 ### Citas con mas elementos
 
@@ -181,7 +186,7 @@ Tambien podemos ponerle estilo a la letra de ***[codeforces]***(https://codeforc
 
 ## Mejor forma de poner links
 
-[nombreAmostrar][linkPage]
+[nombreAmostrar][linkPage] incluso puedo [linkPage] usarlo varias [linkPage] veces
 Este es el link a [Codeforces][linkcodeforces]
 
 [linkPage]:url
@@ -210,6 +215,6 @@ Incluso puedo ponerles otro nombre, pero igual sale enumerado[^otro_nombre].
 Al final , ponemos los pie de notas:
 [^1]: aclaracion 1
 [^2]: aclaracion 2
-[^otronombre]: cualquier otra cosa
+[^otro_nombre]: cualquier otra cosa
 
 
