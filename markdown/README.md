@@ -1,3 +1,5 @@
+# Guia para markdown
+
 Las buenas practicas dicen que
 
 # Como hacer titulos? (Heading de nivel 1)
@@ -12,8 +14,11 @@ Otro Heading de nivel 1
 Otro Heading de nivel 2
 -----------------------
 
+---
 
-## Como hacer Parrafos?
+## Parrafos
+
+---
 
 Aqui pueden venir varias lineas, Y un solo salto de linea como este
 es como poner un `<br>` de html.
@@ -31,7 +36,11 @@ Este es otro parrafo, las buenas practicas de programacion, me dicen que no teng
 ***NEGRITA ITALIC***
 ~~TACHADO~~
 
+---
+
 ## Citas
+
+---
 
 > Esto es una forma de hacer una cita
 
@@ -53,7 +62,11 @@ esos *saltos* de **linea**
 > pueden venir mas parrafos 
 > `<br>` y codigo creo, espero que si :D
 
+---
+
 ## Listas
+
+---
 
 ####Listas enumeradas
 
@@ -110,6 +123,12 @@ esos *saltos* de **linea**
 	- bd
 - c
 
+---
+
+# Imagenes
+
+---
+
 - Primera forma:
     ![Es el logo de la IPCP :D, aunque este texto no se vera](https://acm.
 iteso.mx/share/ICPC_masters_mexico_2022.jpg)
@@ -117,12 +136,16 @@ iteso.mx/share/ICPC_masters_mexico_2022.jpg)
     ![otro textito][loguitoicpc]
 
 - Tercera forma
-    ![fotoLocal](/../..direccion)
+    ![fotoLocal](icpcbolivia.png)
 
 [loguitoicpc]:https://acm.iteso.mx/share/ICPC_masters_mexico_2022.jpg
 
 
-## Como poner codigo?
+---
+
+## Codigo
+
+---
 
 Ponemos la etiqueta `body` o `<p>` de html
 La instrucciono `for i in range(10)` de python
@@ -166,19 +189,20 @@ Se ponen cuando quieres separar una idea de otra
 
 ## Links
 
-Los links se ponen asi [link para Atcoder](https://atcoder.jp/home)
-
 ---
 
-# URLs y Emails
+Los links se ponen asi [link para Atcoder](https://atcoder.jp/home)
+
+
+## URLs y Emails
 
 Para mostrar directamente una ruls o email
 <https://atcoder.jp/home>
 <rodritc99@gmail.com>
 
----
 
-# Formato a los links
+
+## Formato a los links
 
 [Codeforces](https://codeforces.com/) esun buen juez
 
@@ -196,6 +220,8 @@ Este es el link a [Codeforces][linkcodeforces]
 
 ## Checkbox
 
+---
+
 [x] opcion1
 [ ] opcion2
 
@@ -205,6 +231,8 @@ Este es el link a [Codeforces][linkcodeforces]
 ---
 
 ## Pie de notas
+
+---
 
 Tengo un texto y hago aclaracion en aqui[^1]
 
@@ -217,4 +245,21 @@ Al final , ponemos los pie de notas:
 [^2]: aclaracion 2
 [^otro_nombre]: cualquier otra cosa
 
+
+---
+
+## Tablas
+
+---
+- Minimo 3 guiones y 1 Pipe
+- 2 puntos a la izquierda, alinea a la izquierda
+- 2 puntos a la derecha, alinea a la derecha
+- 2 puntos al inicio y al final, alinea al centro
+* > *numeros* alineados a la izquierda
+*letras* alineadas a la derecha
+
+Uno|Dos|Tres|Costos
+:---|:---:|:---:|---:
+Github | JavaScript | C++ | 15000
+Lunes lunes | Martes martes | Miercoles Miercoles | 32
 
